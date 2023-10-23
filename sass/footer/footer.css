@@ -1,0 +1,89 @@
+footer .box {
+  margin: 60px 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4%;
+  gap: 20px;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+footer .box .item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .box .item p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.7;
+}
+footer .box .item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .box .item h1 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+footer .box .item a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+  opacity: 0.7;
+}
+footer .box2 {
+  background: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 97.91%);
+  padding: 34px 5%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 38px;
+}
+footer .box2 p {
+  text-align: center;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+footer .box2 .item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+footer .box2 .item button {
+  color: #3C61E1;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #FFF;
+  padding: 15px 31px 14px;
+}
+footer .box2 .item button:hover {
+  background: red;
+  color: #FFF;
+}
+
+@media (max-width: 1200px) {
+  footer .box {
+    justify-content: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=footer.css.map */
